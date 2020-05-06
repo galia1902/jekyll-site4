@@ -1,0 +1,15 @@
+# Site Settings
+title: gali gurevich | portfolio
+email: galiagurevich@gmail.com
+description: >
+ a showcase of my some of my dev skills
+baseurl: ""
+url: "http://localhost:4000"
+twitter_username: taniarascia
+github_username:  galia1902
+# Build Settings
+sass:
+  sass_dir: _sass
+include: ['_pages']
+kramdown:
+  input: GFM
