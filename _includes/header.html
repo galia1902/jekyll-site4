@@ -2,17 +2,19 @@
   <div class="container">
     <nav>
       <ul>
-        {% for page in site.pages %} {% if page.title %}
-        <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-        {% endif %} {% endfor %}
-        <li><a href="{{ "/blog" | prepend: site.baseurl }}">Blog</a></li>
+       <!--  {% for page in site.pages %} {% if page.title %} -->
+       <!--  <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li> -->
+       <!--  {% endif %} {% endfor %} -->
+        <li><a href="#heading-skills">SKILLS</a></li>
+        <li><a href="#heading-projects">PROJECTS</a></li>
+        <li><a href="#heading-story">STORY</a></li>
+        <li><a href="{{ "/blog" | prepend: site.baseurl }}" >BLOG</a></li>
+        <li> <a href="{{"/downloads/resume-02.pdf" | prepend: site.baseurl }}"  target="_blank">RESUME</a></li>
       </ul>
-      </li>
+      <ul class="aside-submenu">
+        <li style="margin-top:25px"> <a class="link" href="https://www.linkedin.com/in/gali-gurevich-8b692712a/">LINKEDIN</a></li>
+        <li><a class="link" href="https://github.com/galia1902">GITHUB</a></li>
       </ul>
     </nav>
   </div>
 </aside>
-
-<header>
-  <h1><a href="{{ site.baseurl }}">{{ site.title }}</a></h1>
-</header>
