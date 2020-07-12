@@ -3,13 +3,16 @@
 {% include head.html %}
 
 <body>
-  {% include header.html %}
+  <div class="wrap">
+
   <main>
+    {% include header.html %}
     <article>
       {{ content }}
     </article>
     {% include footer.html %}
   </main>
+</div>
 </body>
 
 </html>
