@@ -1,7 +1,6 @@
 ---
 layout: blog
 ---
-<h4 style="font-weight:normal">blog</h4>
 {% for post in site.posts %}
     <!-- <time>{{ post.date | date: "%b %-d, %Y" }}</time> -->
     <h3 style="margin-top:50px; font-weight:normal"><a style="text-decoration: none;" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
