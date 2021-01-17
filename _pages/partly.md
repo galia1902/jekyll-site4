@@ -8,7 +8,7 @@ permalink: /partly/
 <span class="project-wrap">
   <span class="page-content">
   <span class="page" id="page1">
-     <span class="partly-gif" id="partly-gif-1-container">
+     <span class="partly-gif-container" id="partly-gif-container-1">
      ![Mock01](https://user-images.githubusercontent.com/28009698/94574222-8d501200-027b-11eb-956f-912ca99c7017.gif){:class="partly-gif-1"}
      </span>
     </span>
