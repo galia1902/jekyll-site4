@@ -6,16 +6,6 @@ body {
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
-
-.wrap{
-  margin-top: 3.7vw;
-  height: auto;
-  position: relative;
-  z-index: 2;
-  max-width: 960px;
-  padding: 2rem;
-  display: flex;
-}
 h1,
 h2,
 h3 {
@@ -48,6 +38,10 @@ a:hover {
   color: $link-hover-color;
   text-decoration: underline;
 }
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
 header {
   background: $header;
   padding: 0px 15px;
@@ -75,6 +69,15 @@ header {
     margin-top: 3rem;
  }
  background-color: #ffffff00;
+}
+.wrap{
+  margin-top: 3.7vw;
+  height: auto;
+  position: relative;
+  z-index: 2;
+  max-width: 960px;
+  padding: 2rem;
+  display: flex;
 }
 main {
   max-width: $content-width;
