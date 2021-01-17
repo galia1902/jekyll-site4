@@ -2,28 +2,31 @@
 <html>
   {% include head.html %}
   <body>
+    <!-- header container -->
     <div class="partly-header-container">
-       <div class="justify-content-center">
-          <div class="partly-header-content" style='font-weight:bold;'>
-            <span style='color: #4285f4'>P</span>
-            <span style='color: #ea4335'>a</span>
-            <span style='color: #fbbc05'>r</span>
-            <span style='color: #4285f4'>t</span>
-            <span style='color: #34a853'>l</span>
-            <span style='color: #ea4335'>y</span>
-          </div>
-        </div>
+        <div class="partly-back-link">
+        <a onclick="history.go(-1)">
+          <svg width="11" height="22" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+            <path d="M20 .755l-14.374 11.245 14.374 11.219-.619.781-15.381-12 15.391-12 .609.755z"/>
+          </svg>
+        </a>
+      </div>
+      <div class="partly-header-content" style='font-weight:bold;'>
+        <span style='color: #4285f4'>P</span>
+        <span style='color: #ea4335'>a</span>
+        <span style='color: #fbbc05'>r</span>
+        <span style='color: #4285f4'>t</span>
+        <span style='color: #34a853'>l</span>
+        <span style='color: #ea4335'>y</span>
+      </div>
     </div>
-      <a class="blog-back-link" onclick="history.go(-1)">
-        <svg width="11" height="22" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
-          <path d="M20 .755l-14.374 11.245 14.374 11.219-.619.781-15.381-12 15.391-12 .609.755z"/>
-        </svg>
-      </a>
-    <div class="blog-wrap">
+    <!-- content container -->
+    <div class="project-wrap">
       <main>
         {{ content }}
       </main>
     </div>
+
   </body>
 </html>
 
