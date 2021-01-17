@@ -77,12 +77,12 @@ header {
  background-color: #ffffff00;
 }
 main {
-  padding: 0 15px;
   max-width: $content-width;
   margin: 0 auto;
   line-height: 1.2em;
   letter-spacing: 0.06rem;
   font-weight: 200;
+  min-width:100%;
 }
 time {
   color: #898989;
