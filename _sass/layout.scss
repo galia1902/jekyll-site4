@@ -48,6 +48,10 @@ a:hover {
   color: $link-hover-color;
   text-decoration: underline;
 }
+p {
+   margin-block-start: 0;
+   margin-block-end: 0;
+}
 header {
   background: $header;
   padding: 0px 15px;
