@@ -5,13 +5,12 @@ title: partly
 permalink: /partly/
 ---
 
-<span class="project-wrap">
   <span class="page" id="page1">
     <span class="page-content1 page-content">
       <span class="partly-gif-container" id="partly-gif-container-1">
          ![Mock01](https://user-images.githubusercontent.com/28009698/94574222-8d501200-027b-11eb-956f-912ca99c7017.gif){:class="partly-gif-1"}
       </span>
-      <span class="partly-text-1">
+      <span class="partly-text-right">
         Growl at dogs in my sleep hit you unexpectedly
         Cat ipsum dolor sit amet,
         get scared by sudden appearance of cucumber and do not try to mix old
@@ -25,7 +24,7 @@ permalink: /partly/
  </span>
  <span class="page" id="page2">
     <span class="page-content2 page-content">
-      <span class="partly-text-2">
+      <span class="partly-text-left">
         Growl at dogs in my sleep hit you unexpectedly
         Cat ipsum dolor sit amet,
         get scared by sudden appearance of cucumber and do not try to mix old
@@ -45,7 +44,7 @@ permalink: /partly/
       <span class="partly-gif-container" id="partly-gif-container-1">
          ![Mock01](https://user-images.githubusercontent.com/28009698/94574222-8d501200-027b-11eb-956f-912ca99c7017.gif){:class="partly-gif-1"}
       </span>
-      <span class="partly-text-3">
+      <span class="partly-text-right">
         Growl at dogs in my sleep hit you unexpectedly
         Cat ipsum dolor sit amet,
         get scared by sudden appearance of cucumber and do not try to mix old
@@ -59,7 +58,7 @@ permalink: /partly/
  </span>
  <span class="page" id="page4">
     <span class="page-content4 page-content">
-       <span class="partly-text-4">
+       <span class="partly-text-left">
         Growl at dogs in my sleep hit you unexpectedly
         Cat ipsum dolor sit amet,
         get scared by sudden appearance of cucumber and do not try to mix old
@@ -73,39 +72,4 @@ permalink: /partly/
          ![Mock01](https://user-images.githubusercontent.com/28009698/94574222-8d501200-027b-11eb-956f-912ca99c7017.gif){:class="partly-gif-1"}
       </span>
     </span>
- </span>
 </span>
-
-
-<!--
-layout: project
-title: partly
-permalink: /partly/
-<--->
-
-<!-- <span class="blog-wrap">
-  <span class="page" id="page1">
-      <span class="partly-text-1">
-        hi hi hi
-      </span>
-      <span class="partly-gif-1">
-        ![Mock01](https://user-images.githubusercontent.com/28009698/94574222-8d501200-027b-11eb-956f-912ca99c7017.gif)
-      </span>
-  </span>
-  <span class="page" id="page2">
-
-  </span>
-  <span class="page" id="page3">
-  <span class="page" id="page2">
-  </span>
-  </span>
-</span> -->
-<!--
-<span class="blog-wrap">
-  <span class="page">
-  <span class="page" id="page1">
-     <span class="partly-gif" id="partly-gif-1">
-     </span>
-     </span>
-  </span>
-</span> -->
