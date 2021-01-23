@@ -30,6 +30,12 @@
   </body>
 </html>
 
-
-
-
+<script>
+  $(window).on("scroll", function() {
+    if($(window).scrollTop() > 800) {
+        $(".partly-header-container").addClass("active");
+    } else {
+        //remove the background property so it comes transparent again (defined in your css)
+       $(".partly-header-container").removeClass("active");
+    }
+});</script>
