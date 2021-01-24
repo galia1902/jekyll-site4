@@ -58,7 +58,7 @@
   padding: 110px 0 0 0;
 }
 .page-content2{
-  background-color:SkyBlue;
+  background-color:#97bbbe;
 }
 .page-content3{
   // background-color:DarkSalmon;
@@ -134,13 +134,21 @@
  }
 }
 .partly-content-title{
-
+  display:block;
+  text-align:center;
 }
 .partly-text-main{
-
+  display:block;
 }
 .partly-introduction{
   flex-direction: column !important;
+}
+.page-content-introduction{
+  width:80%;
+  margin:0 auto;
+  // background-color: blue;
+  display:flex;
+  padding:200px 20% 0 20%;
 }
 
 

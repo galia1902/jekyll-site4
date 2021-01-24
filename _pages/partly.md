@@ -5,7 +5,7 @@ title: partly
 permalink: /partly/
 ---
  <span class="page" id="page0">
-   <span class="page-content1 page-content-introduction">
+   <span class="page-content1 page-content-introduction partly-text">
      <span class="partly-introduction">
        <span class="partly-content-title">
         Partly - Built to Complete
