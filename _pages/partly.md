@@ -4,7 +4,18 @@ layout: project
 title: partly
 permalink: /partly/
 ---
-
+ <span class="page" id="page0">
+   <span class="page-content1 page-content-introduction">
+     <span class="partly-introduction">
+       <span class="partly-content-title">
+        Partly - Built to Complete
+       </span>
+       <span class="partly-text-main">
+        (EDIT!!!!) Partly was built during a 9 week workshop aimed to cultivate a startup oriented mindset to developing and creating an online application
+       </span>
+     </span>
+   </span>
+</span>
   <span class="page" id="page1">
     <span class="page-content1 page-content page-content-right">
       <span class="partly-gif-container" id="partly-gif-container-1">
