@@ -8,10 +8,14 @@ permalink: /partly/
    <span class="page-content1 page-content-introduction partly-text">
      <span class="partly-introduction">
        <span class="partly-content-title">
-        Partly - Built to Complete
+        <span class="partly-title-image">
+        ![Logo](https://user-images.githubusercontent.com/28009698/111081666-0fbc4d80-850d-11eb-973f-5806f3d9faef.png)
+        </span>
        </span>
+       <span class="sub-title"> A Google autocomplete based trivia game </span>
        <span class="partly-text-main">
-        (EDIT!!!!) Partly was built during a 9 week workshop aimed to cultivate a startup oriented mindset to developing and creating an online application
+        <!-- (EDIT!!!!) Partly was built during a 9 week workshop aimed to cultivate a startup oriented mindset to developing and creating an online application -->
+        PARTLY ia a fun multi and single player game that is based on the most common searches on google search
        </span>
      </span>
    </span>
