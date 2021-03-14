@@ -9,7 +9,7 @@ permalink: /partly/
      <span class="partly-introduction">
        <span class="partly-content-title">
         <span class="partly-title-image">
-        ![Logo](https://user-images.githubusercontent.com/28009698/111081666-0fbc4d80-850d-11eb-973f-5806f3d9faef.png)
+        ![Logo](https://user-images.githubusercontent.com/28009698/111081666-0fbc4d80-850d-11eb-973f-5806f3d9faef.png){:class="partly-logo-title"}
         </span>
        </span>
        <span class="sub-title"> A Google autocomplete based trivia game </span>
