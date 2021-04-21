@@ -23,7 +23,7 @@ permalink: /partly/
 </span>
   <span class="page" id="page1">
     <span class="page-content1 page-content page-content-right">
-      <span class="partly-gif-container" id="partly-gif-container-1">
+      <span class="partly-gif-container-1" id="partly-gif-container-1">
          ![Mock01](https://user-images.githubusercontent.com/28009698/94574222-8d501200-027b-11eb-956f-912ca99c7017.gif){:class="partly-gif"}
       </span>
       <span class="partly-text-background-1">
@@ -40,14 +40,14 @@ permalink: /partly/
           It features a personal profile witht that is stored on a local database using RUBY and SOMTHING technology
         </span>
       </span>
-      <span class="partly-gif-container" id="partly-gif-container-1">
+      <span class="partly-gif-container-2" id="partly-gif-container-1">
          ![Mock02](https://user-images.githubusercontent.com/28009698/105561939-f115b380-5d20-11eb-8eba-d0e8758367c7.gif){:class="partly-gif"}
       </span>
     </span>
  </span>
  <span class="page" id="page3">
     <span class="page-content3 page-content page-content-right">
-      <span class="partly-gif-container" id="partly-gif-container-1">
+      <span class="partly-gif-container-3" id="partly-gif-container-1">
           ![Mock03](https://user-images.githubusercontent.com/28009698/105561950-fc68df00-5d20-11eb-8a0f-5d0b8a4915e7.gif){:class="partly-gif"}
       </span>
       <span class="partly-text-background-3">
@@ -59,4 +59,6 @@ permalink: /partly/
       </span>
     </span>
  </span>
+
+
 
