@@ -279,10 +279,8 @@
 [class*="partly-text-1"] {
    position: relative;
  }
- [class*="page-content1"]{
-  padding:20px;
- }
-@media only screen and (max-width: 850px) {
+}
+@media only screen and (max-width: 768px) {
 .partly-header-container{
   color:#193234;
   padding: 4px 0 0 5px;
@@ -318,20 +316,20 @@
   height: 100vh;
   flex-wrap: wrap;
 }
-.page-content1{
-  padding: 50px;
+.page-content1, .page-content2, .page-content3{
+  padding: 20px;
   margin: auto;
 }
-.page-content2{
-  background-color:#97bbbe;
-  padding: 50px;
-  margin: auto;
-}
-.page-content3{
-  background-color:#97bbbe;
-  padding: 50px;
-  margin: auto;
-}
+// .page-content2{
+//   background-color:#97bbbe;
+//   padding: 50px;
+//   margin: auto;
+// }
+// .page-content3{
+//   background-color:#97bbbe;
+//   padding: 50px;
+//   margin: auto;
+// }
 .partly-gif-container-1{
   width: 40%;
   display: flex;
@@ -523,48 +521,7 @@
  }
 }
 
-@media only screen and (min-width:440px)
-and (max-width: 850px)
- {
-  [class*="partly-gif-container"] {
-    width: 80%;
-  }
-}
-
-// Noams addition
-
-// img.partly-gif {
-//     height: 100%;
-//     /* width: auto; */
-//     width: auto;
-//     /* margin: auto; */
-//     /* background: yellow; */
-// }
 
 
-// .page>span>span {
-//     flex-basis: 0;
-//     width: 100%;
-//     flex-grow: 1;
-//     min-width: 300px;
-//     /* background: rebeccapurple; */
-// }
-
-// .partly-introduction{
-//     width: inherit;
-//     flex-grow: initial;
-//     min-width: fit-content;
-// }
-
-// .page>span {
-//     flex-wrap: wrap;
-// }
-
-// @media only screen and (max-width: 850px){
-// .partly-gif {
-//     width: 100%;
-//     height: fit-content;
-//     margin: auto;
-// }}
 
 
