@@ -449,22 +449,10 @@
   //what is this for here?
   display:flex;
 }
-.partly-title-image{
-  width:300px;
-}
-.sub-title{
-  color: #595959;
-  font-weight: 300;
-  font-size:22px;
-}
 .partly-logo-title{
   width: 220px;
   padding-bottom: 10px;
 }
-main {
-    width:100%;
-    max-width:100%;
- }
  [class*="content"] {
  }
  [class*="page-content-right"] {
@@ -504,7 +492,7 @@ main {
     padding: 0 0 0 0;
     margin: 0 auto;
 }
-[class*="partly-text-1"] {
+[class*="partly-text-1"],[class*="partly-text-2"], [class*="partly-text-3"] {
    font-size: 16px;
    margin: 10px 0 0 0;
    bottom: 0px;
@@ -515,7 +503,7 @@ main {
    padding: 10px 20px;
    line-height: 18px;
  }
- [class*="partly-text-background-1"] {
+ [class*="partly-text-background-1"], [class*="partly-text-background-2"], [class*="partly-text-background-3"] {
    max-width: 100%;
    margin: 20px 0 0 0;
    height: 130px;
@@ -525,8 +513,12 @@ main {
  .partly-gif{
   width:100%;//
  }
-
-
+ .page-content2{
+  width: 100%;
+ }
+ .partly-text-3{
+  height: 120px;
+ }
 }
 
 
