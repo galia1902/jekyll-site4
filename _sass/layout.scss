@@ -1,3 +1,9 @@
+/** --------------------------------------------------
+Author       : gali gurevich
+Description: PORTFOLIO
+
+Version      : 1.0
+* -------------------------------------------------  */
 html {
   height: -webkit-fill-available;
 }
@@ -7,8 +13,10 @@ body {
   font-family: $font-style;
   font-size: 1.1em;
   line-height: 1.6;
+  font-weight: 200;
+  font-style: normal;
+  letter-spacing: 0em;
   -webkit-font-smoothing: antialiased;
-  min-height: 100vh;
   min-height: -webkit-fill-available;
 }
 
