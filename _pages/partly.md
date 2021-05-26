@@ -11,9 +11,10 @@ permalink: /partly/
        ![partly-logo-mint](https://user-images.githubusercontent.com/28009698/116930577-9a493f80-ac68-11eb-8424-d745f4a45935.png){:class="partly-logo-title"}
       </span>
    </span>
-  <span class="partly-sub-title" id="scrollTOO">
+  <span class="partly-sub-title" >
     A Google autocomplete based trivia game
   </span>
+   <span id="scrollTOO"> some text</span>
   <span class="partly-text-main-background">
   <span class="partly-text-main partly-text">
     PARTLY is a fun multi and single player game that is based on the most common searches on google search

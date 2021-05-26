@@ -41,14 +41,13 @@
 });
 
 var scroll = true;
-
 $(window).scroll(function (e) {
 
     var position = $(document).scrollTop();
     var startP = $("#scrollTOO").position();
     var finishP = $("#scrollTo");
 
-    if(position > startP.top && startP.top+100 && scroll==true ) {
+    if(position > startP.top && startP.top+200 && scroll==true ) {
         scroll = false;
 
         $('html,body').animate({scrollTop: finishP.offset().top},2000);
@@ -57,4 +56,6 @@ $(window).scroll(function (e) {
         scroll = true;
     }
 })
+
+
 </script>
