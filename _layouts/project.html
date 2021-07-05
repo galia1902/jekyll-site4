@@ -45,4 +45,21 @@
     }
 });
 </script>
+var scroll = true;
 
+$(window).scroll(function (e) {
+
+    var position = $(document).scrollTop();
+    var startP = $("#scrollTOO").position();
+    var finishP = $("#scrollTo");
+
+    if(position > startP.top && startP.top+100 && scroll==true ) {
+        scroll = false;
+
+        $('html,body').animate({scrollTop: finishP.offset().top},2000);
+
+    } if (position > 0 && position < 300 && scroll==false) {
+        scroll = true;
+    }
+})
+</script>

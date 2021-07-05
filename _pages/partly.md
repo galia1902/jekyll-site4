@@ -4,22 +4,19 @@ layout: project
 title: partly
 permalink: /partly/
 ---
- <span class="page example-classname" id="page0">
-   <span class="page-content page-content-introduction partly-text">
-     <span class="partly-introduction">
-       <span class="partly-content-title">
-        <span class="partly-title-image">
-        ![Logo](https://user-images.githubusercontent.com/28009698/111081666-0fbc4d80-850d-11eb-973f-5806f3d9faef.png){:class="partly-logo-title"}
-        </span>
-       </span>
-       <span class="sub-title"> A Google autocomplete based trivia game </span>
-       <!-- <span class="partly-page0-decorative-squere-shadow">hi</span> -->
-       <span class="partly-text-main">
-        <!-- (EDIT!!!!) Partly was built during a 9 week workshop aimed to cultivate a startup oriented mindset to developing and creating an online application -->
-        PARTLY is a fun multi and single player game that is based on the most common searches on google search
-       </span>
-     </span>
+<span class="page page0">
+    <span class="partly-content-title">
+      <span class="partly-title-image">
+       ![partly-logo-mint](https://user-images.githubusercontent.com/28009698/116930577-9a493f80-ac68-11eb-8424-d745f4a45935.png){:class="partly-logo-title"}
+      </span>
    </span>
+  <span class="partly-sub-title" id="scrollTOO">
+    A Google autocomplete based trivia game
+  </span>
+  <span class="partly-text-main-background">
+  <span class="partly-text-main partly-text">
+    PARTLY is a fun multi and single player game that is based on the most common searches on google search
+  </span>
 </span>
   <span class="page example-classname" id="page1">
     <span class="page-content1 page-content page-content-right">
@@ -58,7 +55,9 @@ permalink: /partly/
         </span>
       </span>
     </span>
- </span>
+  </span>
+</span>
+
 
 
 
