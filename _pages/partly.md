@@ -4,7 +4,7 @@ layout: project
 title: partly
 permalink: /partly/
 ---
- <span class="page" id="page0">
+ <span class="page example-classname" id="page0">
    <span class="page-content page-content-introduction partly-text">
      <span class="partly-introduction">
        <span class="partly-content-title">
@@ -21,23 +21,23 @@ permalink: /partly/
      </span>
    </span>
 </span>
-  <span class="page" id="page1">
+  <span class="page example-classname" id="page1">
     <span class="page-content1 page-content page-content-right">
       <span class="partly-gif-container-1" id="partly-gif-container-1">
          ![Mock01](https://user-images.githubusercontent.com/28009698/94574222-8d501200-027b-11eb-956f-912ca99c7017.gif){:class="partly-gif"}
       </span>
       <span class="partly-text-background-1">
         <span class="partly-text partly-text-right partly-text-1">
-          The game uses google’s API to scrape the top autocomplete suggestions for a phrase and gives them as possible questions
+          Partly is the ultimate Google Autocomplete guessing game. It scrapes Google's top autocomplete suggestions for a phrase and gives them as possible questions
         </span>
       </span>
     </span>
  </span>
- <span class="page" id="page2">
+ <span class="page example-classname" id="page2">
     <span class="page-content2 page-content page-content-left">
       <span class="partly-text-background-2">
         <span class="partly-text partly-text-left partly-text-2">
-          It features a personal profile witht that is stored on a local database using RUBY and SOMTHING technology
+          It features a personal profile that is stored on a local database using Ruby On Rails and SOMTHIN technology
         </span>
       </span>
       <span class="partly-gif-container-2" id="partly-gif-container-1">
@@ -45,7 +45,7 @@ permalink: /partly/
       </span>
     </span>
  </span>
- <span class="page" id="page3">
+ <span class="page example-classname" id="page3">
     <span class="page-content3 page-content page-content-right">
       <span class="partly-gif-container-3" id="partly-gif-container-1">
           ![Mock03](https://user-images.githubusercontent.com/28009698/105561950-fc68df00-5d20-11eb-8a0f-5d0b8a4915e7.gif){:class="partly-gif"}
