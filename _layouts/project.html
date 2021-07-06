@@ -31,31 +31,14 @@
 </html>
 
 <script>
-  $(window).on("scroll", function() {
-    if($(window).scrollTop() > 25) {
+ container = $("main p");
+
+  $(container).on("scroll", function() {
+    if($(container).scrollTop() > 25) {
         $(".partly-header-container").addClass("active");
     } else {
         //remove the background property so it comes transparent again (defined in your css)
        $(".partly-header-container").removeClass("active");
     }
 });
-
-var scroll = true;
-$(window).scroll(function (e) {
-
-    var position = $(document).scrollTop();
-    var startP = $("#scrollTOO").position();
-    var finishP = $("#scrollTo");
-
-    if(position > startP.top && startP.top+200 && scroll==true ) {
-        scroll = false;
-
-        $('html,body').animate({scrollTop: finishP.offset().top},2000);
-
-    } if (position > 0 && position < 300 && scroll==false) {
-        scroll = true;
-    }
-})
-
-
 </script>

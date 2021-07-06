@@ -8,7 +8,7 @@ permalink: /partly/
 <span class="page page0">
     <span class="partly-content-title">
       <span class="partly-title-image">
-       ![partly-logo-mint](https://user-images.githubusercontent.com/28009698/116930577-9a493f80-ac68-11eb-8424-d745f4a45935.png){:class="partly-logo-title"}
+        ![Logo](https://user-images.githubusercontent.com/28009698/111081666-0fbc4d80-850d-11eb-973f-5806f3d9faef.png){:class="partly-logo-title"}
       </span>
    </span>
   <span class="partly-sub-title" >
