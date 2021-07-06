@@ -14,16 +14,12 @@ permalink: /partly/
   <span class="partly-sub-title" >
     A Google autocomplete based trivia game
   </span>
-   <span id="scrollTOO"> some text</span>
   <span class="partly-text-main-background">
   <span class="partly-text-main partly-text">
     PARTLY is a fun multi and single player game that is based on the most common searches on google search
   </span>
 </span>
 </span>
-
-<!--   <!-- scroll test end -->
-<span id="scrollTo"></span>
 <span class="page page1 page-content-right">
   <span class="partly-gif-container" id="partly-gif-container-1">
      ![Mock01](https://user-images.githubusercontent.com/28009698/94574222-8d501200-027b-11eb-956f-912ca99c7017.gif){:class="partly-gif"}
@@ -35,8 +31,6 @@ permalink: /partly/
   </span>
 </span>
 
-
-
 <span class="page page2 page-content-left">
   <span class="partly-text-background-2">
     <span class="partly-text partly-text-left partly-text-2">
@@ -47,8 +41,6 @@ permalink: /partly/
      ![Mock02](https://user-images.githubusercontent.com/28009698/105561939-f115b380-5d20-11eb-8eba-d0e8758367c7.gif){:class="partly-gif"}
   </span>
 </span>
-
-
 
 <span class="page page3 page-content-right">
   <span class="partly-gif-container" id="partly-gif-container-1">
