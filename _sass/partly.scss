@@ -18,9 +18,20 @@
   padding:3px 20px 0 0;
 }
 .project-wrap{
-    background-color:#d1e9f5;
-    display:flex;
-    flex-direction:column;
+  background-color: #d1e9f5;;
+  margin-top: 0;
+  height: auto;
+  position: relative;
+  z-index: 2;
+  // max-width: 960px;
+  padding: 2rem;
+  display: flex;
+  overflow: hidden;
+}
+//check what is the p for"
+p {
+   width: 100%;
+   display:block;
 }
 .page{
   height:100vh;
@@ -514,4 +525,9 @@ main>p{
  .partly-text-3{
   height: 120px;
  }
+.partly-text-background-3{
+  margin-top: 35px;
 }
+}
+
+
