@@ -6,24 +6,22 @@ Version      : 1.0
 * -------------------------------------------------  */
 //typo
 .partly-text{
-  font-weight: bold;
-  display: block;
+
   color: #4D4D4D;
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-  font-style: normal;
   font-weight: 300;
+  font-style: normal;
+  font-size: 17px;
   line-height: 24px;
   letter-spacing: 0em;
-  font-weight: 300;
+
   position:relative;
   right:auto;
   bottom:auto;
   display: block;
   padding:10px 20px 0 0;
-  line-height: 18px;
-  color:#4D4D4D;
   width: 100%;
+
   z-index: 200;
 }
 //header
@@ -82,10 +80,11 @@ p {
   padding-top:120px;
 }
 .page1,.page2,.page3{
+  justify-content: center;
+  align-items:center;
   z-index: 1;
-}
-.page1,.page2,.page3{
- padding-top: 100px;
+  //top: -35px;
+  //padding-top: 100px;
 }
 .partly-content-title{
   display:block;
@@ -107,7 +106,7 @@ p {
 .partly-text-main{
   display:block;
     position: absolute;
-    width: 170px;
+    width: 280px;
     right: 10px;
     bottom: 24px;
     text-align:left;
@@ -120,7 +119,7 @@ p {
     box-shadow: 0px 14px 24px -10px rgba(0,0,0,.25);
 }
 .partly-gif-container{
-  max-width:300px;
+  max-width:400px;
   display: flex;
   width: 50%;
   min-width: 300px;
@@ -135,11 +134,15 @@ p {
   background-color:white;
   box-shadow: 0px 14px 24px -10px
   rgba(0,0,0,.25);
-  max-width:100%;
-  margin:20px 0 0 0;
-  justify-content:flex-end;
-  width:400px;
-  height: 130px;
+  //max-width:100%;
+  //margin:20px 0 0 0;
+  //justify-content:flex-end;
+  //width:400px;
+  //height: 130px;
+  padding:20px;
+  max-width:30%;
+  max-width:360px;
+
 }
 
 .partly-text-background-1{
@@ -177,6 +180,20 @@ p {
   margin: 10px 0 0 0;
   padding: 10px 20px;
 }
+.partly-text-background-1, .partly-text-background-2,.partly-text-background-3{
+  background-color:white;
+  box-shadow: 0px 14px 24px -10px
+  rgba(0,0,0,.25);
+  max-width:100%;
+  margin:20px 0 0 0;
+  //justify-content:flex-end;
+  width:400px;
+  //height: 130px;
+  //padding:20px;
+
+
+}
+
 }
 
 
