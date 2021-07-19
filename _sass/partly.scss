@@ -25,22 +25,6 @@ Version      : 1.0
   color:#4D4D4D;
   width: 100%;
   z-index: 200;
-
-  font-weight: bold;
-  display: block;
-  color: #4D4D4D;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  line-height: 24px;
-  letter-spacing: 0em;
-  position: relative;
-  right: auto;
-  bottom: auto;
-  padding: 10px 20px 0 0;
-  width: 100%;
-  z-index: 200;
-  margin: 10px 0 0 0;
 }
 //header
 .partly-header-container{
@@ -188,6 +172,10 @@ p {
 }
 .partly-text-background-3{
   margin-top: 35px;
+}
+.partly-text-1,.partly-text-2,.partly-text-3{
+  margin: 10px 0 0 0;
+  padding: 10px 20px;
 }
 }
 
