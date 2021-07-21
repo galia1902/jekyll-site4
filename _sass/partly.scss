@@ -51,7 +51,6 @@ Version      : 1.0
   z-index: 2;
   padding: 2rem;
   display: flex;
-  // overflow: hidden;
   overflow: scroll;
   height: 100vh;
   scroll-snap-type: mandatory;
@@ -61,7 +60,6 @@ Version      : 1.0
        scroll-snap-align: start;
   }
 }
-//check what is the p for"
 p {
    width: 100%;
    display:block;
@@ -83,8 +81,6 @@ p {
   justify-content: center;
   align-items:center;
   z-index: 1;
-  //top: -35px;
-  //padding-top: 100px;
 }
 .partly-content-title{
   display:block;
@@ -134,37 +130,23 @@ p {
   background-color:white;
   box-shadow: 0px 14px 24px -10px
   rgba(0,0,0,.25);
-  //max-width:100%;
-  //margin:20px 0 0 0;
-  //justify-content:flex-end;
-  //width:400px;
-  //height: 130px;
   padding:20px;
-  max-width:30%;
   max-width:360px;
-
-}
-
-.partly-text-background-1{
-  // min-width: 300px;
-
+  transform: translatey(-120px);
 }
 .partly-text-background-2{
   margin-top: 15px;
-
 }
-.partly-text-background-3{
 
-}
 @media only screen and (max-height: 670px) {
 .page{
   height:initial;
-}
+ }
 }
 @media only screen and (max-width: 375px) {
 .partly-text-background-1{
   height: 180px;
-}
+ }
 }
 @media only screen and (max-width: 830px) {
 .partly-text-background-1{
@@ -186,14 +168,8 @@ p {
   rgba(0,0,0,.25);
   max-width:100%;
   margin:20px 0 0 0;
-  //justify-content:flex-end;
   width:400px;
-  //height: 130px;
-  //padding:20px;
-
-
-}
-
+ }
 }
 
 
