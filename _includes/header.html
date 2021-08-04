@@ -10,9 +10,11 @@
        <!--  {% for page in site.pages %} {% if page.title %} -->
        <!--  <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li> -->
        <!--  {% endif %} {% endfor %} -->
-        <li><a href="#heading-skills">SKILLS</a></li>
-        <li><a href="#heading-projects">PROJECTS</a></li>
-        <li><a href="#heading-story">STORY</a></li>
+        <li><a href="#heading-skills" onclick="document.getElementById('menu-btn').checked = false;">SKILLS</a></li>
+        <li><a href="#heading-projects" onclick="document.getElementById('menu-btn').checked = false;
+">PROJECTS</a></li>
+        <li><a href="#heading-story" onclick="document.getElementById('menu-btn').checked = false;
+">STORY</a></li>
         <li><a href="{{ "/blog" | prepend: site.baseurl }}" >BLOG</a></li>
         <li> <a href="{{"/downloads/resume-02.pdf" | prepend: site.baseurl }}"  target="_blank">RESUME</a></li>
       </ul>
