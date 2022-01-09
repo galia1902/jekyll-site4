@@ -5,6 +5,8 @@ title: partly
 permalink: /partly/
 ---
 
+<!-- blah blah -->
+
 <span class="page page0">
   <span class="partly-content-title">
     <span class="partly-title-image">
